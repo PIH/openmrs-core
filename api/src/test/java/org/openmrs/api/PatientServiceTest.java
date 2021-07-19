@@ -3346,7 +3346,6 @@ public class PatientServiceTest extends BaseContextSensitiveTest {
 		patients = patientService.getPatientsByGivenName("HORATIO");
 		assertThat(patients.size(), is(1));
 		assertThat(patients.get(0).getPatientId(), is(2));
-
 	}
 
 }
